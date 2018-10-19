@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/jfontanez/.nvm/versions/node/v8.9.1/bin/node /Users/jfontanez/.nvm/versions/node/v8.9.1/bin/yarn add @babel/present-env @babel/preset-react --dev
+
+PATH: 
+  /Users/jfontanez/.nvm/versions/node/v8.9.1/bin:/Users/jfontanez/.pyenv/shims:/Users/jfontanez/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Users/jfontanez/lib/bin:/usr/local/opt/go/libexec/bin:/bin:/Users/jfontanez/anaconda3/bin:/Users/jfontanez/Applications/openshift-v3.9.0
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fpresent-env: Not found
+      at Request.params.callback [as _callback] (/Users/jfontanez/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/Users/jfontanez/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:137468:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/jfontanez/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:138440:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/jfontanez/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

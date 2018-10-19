@@ -1,0 +1,17 @@
+{
+    "id": "bandwidth_export",
+    "name": "Bandwidth SCL",
+    "version": "1.0.0",
+    "main": "main.js",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Export to component...",
+            "commandId": "exportRendition"
+        }
+    ]
+}
